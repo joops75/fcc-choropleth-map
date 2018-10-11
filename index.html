@@ -1,0 +1,28 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Choropleth Map</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/topojson.v3.min.js"></script>
+    </head>
+    <body>
+        <div id="frame">
+            <div id="title">US Education Data</div>
+            <div id="page" onmousemove="getCoords(event)"></div>
+            <div id="tooltip">
+                <div id="education">text</div>
+                <div id="fips">text</div>
+                <div id="county">text</div>
+                <div id="state">text</div>
+            </div>
+        </div>
+        <script src="data/US County Data.js"></script>
+        <script src="data/US Education Data.js"></script>
+        <script src="javascripts/choropleth.js"></script>
+        <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background: rgb(230, 215, 51);
+    font-family: 'Bookman Old Style', Arial
+}
+
+#frame {
+    width: 1160px;
+    height: 630px;
+    background: rgb(230, 215, 51);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+#title {
+    width: 960px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(230, 215, 51);
+    margin: auto;
+}
+
+#page {
+    width: 960px;
+    height: 600px;
+    background: rgb(230, 215, 51);
+    margin: auto;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 230px;
+    background: rgb(237, 226, 109);
+    padding: 10px;
+    border-radius: 10px;
+}
